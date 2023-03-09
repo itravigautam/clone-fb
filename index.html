@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testbook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-profile online" onclick="settingsMenuToggle()">
+                <img src="images/multicolor.png">
+            </div>
+        </div>
+
+        <!--setting-menu-->
+        <div class="settings-menu">
+
+            <div id="dark-button">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>ravi gautam</p>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>please give feedback</p>
+                        <a href="#">to help to improve</a>
+                    </div>
+                </div>
+                <hr>
+                  
+                 <div class="settins-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">settings & privacy <img src="images/arrow.png"
+                     width="10px"></a>
+                 </div>
+                 <div class="settins-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">help & support <img src="images/arrow.png"
+                     width="10px"></a>
+                 </div> 
+                 <div class="settins-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Acessibility <img src="images/arrow.png"
+                     width="10px"></a>
+                 </div> 
+                 <div class="settins-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/arrow.png"
+                     width="10px"></a>
+                 </div>    
+
+            </div>
+
+        </div>
+
+
+
+    </nav>
+    <div class="container">
+        <div class="left-slidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">latest new</a>
+                <a href="#"><img src="images/watch.png">watch</a>
+                <a href="#"><img src="images/friends.png">friends</a>
+                <a href="#"><img src="images/group.png">group</a>
+                <a href="#"><img src="images/marketplace.png">marketplace</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>your shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">web developers</a>
+                <a href="#"><img src="images/shortcut-2.png">web design course</a>
+                <a href="#"><img src="images/shortcut-3.png">Full stack developement</a>
+                <a href="#"><img src="images/shortcut-4.png">website experts</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-story">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>upload story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>vipul</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>its_rg</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>topper</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>nishant</p>
+                </div>
+            </div>
+            <!--post start here-->
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>ravi gautam</p>
+                        <small>public<i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea row="4" placeholder="whats you write"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">for live video</a>
+                        <a href="#"><img src="images/photo.png">upload pic/video</a>
+                        <a href="#"><img src="images/feeling.png">activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1st -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>ravi gautam</p>
+                            <span>28 june 2022,3:36pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Hey guys <span>I M RAVI GAUTAM</span> how are you<br><a href="#">#facebook</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">999</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>ravi gautam</p>
+                            <span>10 sept.2022,12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">today is special day for me <span>because today is my 19th Birthday</span><br><a
+                        href="#">#facebook</a></p>
+                <img src="images/profile-pic2.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">2k</div>
+                        <div><img src="images/comments.png">200</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>ravi gautam</p>
+                            <span>28 june 2022,3:36pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Hey guys <span>I M RAVI GAUTAM</span> how are you<br><a href="#">#facebook</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">999</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 4th -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>ravi gautam</p>
+                            <span>28 june 2022,3:36pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Hey guys <span>I M RAVI GAUTAM</span> how are you<br><a href="#">#facebook</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">999</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 5th -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>ravi gautam</p>
+                            <span>28 june 2022,3:36pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Hey guys <span>I M RAVI GAUTAM</span> how are you<br><a href="#">#facebook</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">999</div>
+                        <div><img src="images/comments.png">150</div>
+                        <div><img src="images/share.png">50</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- post end here -->
+            <button type="button" class="load-more-button">load more</button>
+        </div>
+
+
+        <div class="right-slidebar">
+            <div class="sidebar">
+                <h1>Events</h1>
+                <a href="#">See all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h2>10</h2>
+                    <span>may</span>
+                </div>
+                <div class="right-event">
+                    <h3>social media</h3>
+                    <p><a href="#"><img src="images/location.png"></a>Gujrani,Bhiwani</p>
+                    <a href="#">see more</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h2>28</h2>
+                    <span>july</span>
+                </div>
+                <div class="right-event">
+                    <h3>Birthday</h3>
+                    <p><a href="#"><img src="images/location.png"></a>kedarnath,uttar pradesh</p>
+                    <a href="#">see more</a>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h1>Advertisement</h1>
+                <a href="#">see more</a>
+            </div>
+            <img src="images/png.png" class="sidebar-adds">
+
+            <div class="sidebar">
+                <h1>conversation</h1>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Emma Watson</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>bruce lee</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Ms.gringer</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copyright-its_RG</p>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
